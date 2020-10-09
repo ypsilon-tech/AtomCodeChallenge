@@ -38,7 +38,7 @@ With the exception of the {imageName} part of the URL all of the above query par
 
 ### Examples 
 
-https://localhost:5000/api/images/01_04_2019_001103?resolution=300x600&backgroundColour=Blue - returns image identified by "01_04_2019_001103" with size set to 300x600 pixels and a background colour of AliceBlue
+https://localhost:5000/api/images/01_04_2019_001103?resolution=300x600&backgroundColour=Blue - returns image identified by "01_04_2019_001103" with size set to 300x600 pixels and a background colour of Blue
 
 https://localhost:5000/api/images/01_04_2019_001103?backgroundColour=Red&imageType=gif - returns image identified by "01_04_2019_001103" with a background colour of Red and content-type of "image/gif"
 
