@@ -28,7 +28,7 @@ The api can be run within the Visual Studio environment or hosted seperately, th
 
 	2. Specify background colour - Add "?backgroundColour={colour spec}" to the request url where {colour spec} is either the name (most standard css colour names are supported) or an RGB hex string, e.g. https://localhost:5000/api/images/01_04_2019_001103?backgroundColour=Blue and https://localhost:5000/api/images/01_04_2019_001103?backgroundColour=0000ff are equivalent
 
-	3. Specify watermark text - Add "?watermark={watermark spec}" to the request url where {watermark spec} is the text to add. The text for this parameter should be url escaped to avoid any potential problems with reserved characters. e.g. https://localhost:5000/api/images/01_04_2019_001103?watermark=Copyright%20%C2%A9%202020 adds the text "Copyright � 2020" to the upper left hand corner of the returned image
+	3. Specify watermark text - Add "?watermark={watermark spec}" to the request url where {watermark spec} is the text to add. The text for this parameter should be url escaped to avoid any potential problems with reserved characters. e.g. https://localhost:5000/api/images/01_04_2019_001103?watermark=Copyright%20%C2%A9%202020 adds the text "Copyright &copy; 2020" to the upper left hand corner of the returned image
 
 	4. Specify image content-type - Add "?imageType={file type}" to the request url where {file type} is the file format of the image required. The values "bmp", "gif", "jpeg", "png" & "tiff" are supported. e.g. https://localhost:5000/api/images/01_04_2019_001103?imageType=bmp to request the image as content-type "image/bmp"
 
